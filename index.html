@@ -1,0 +1,257 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta
+      name="description"
+      content="Platform Engineering portfolio for a DevOps and Cloud Infrastructure professional. 
+      Reliable systems, scalable automation, and fast cloud delivery."
+    />
+    <title>Platform Engineering Portfolio</title>
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <div class="page-shell">
+      <header class="site-header">
+        <div class="brand">
+          <a href="#hero" class="brand-mark" aria-label="Home">
+            <img src="image/logo1.png" alt="Platform Engineering logo" class="brand-logo" />
+          </a>
+          <div>
+            <p class="eyebrow">Platform Engineering</p>
+            <h1>Building resilient infrastructure and automated delivery pipelines.</h1>
+          </div>
+        </div>
+
+        <div class="header-actions">
+          <button id="theme-toggle" class="icon-button" aria-label="Toggle dark mode">
+            <span>🌓</span>
+          </button>
+          <button id="menu-toggle" class="menu-button" aria-label="Toggle navigation menu">
+            <span></span>
+            <span></span>
+            <span></span>
+          </button>
+        </div>
+      </header>
+
+      <nav class="site-nav" id="site-nav">
+        <a href="#projects">Projects</a>
+        <a href="#skills">Skills</a>
+        <a href="#summary">Summary</a>
+        <a href="#contact">Contact</a>
+      </nav>
+
+      <main>
+        <section class="hero section grid" id="hero">
+          <div class="hero-copy">
+            <p class="eyebrow">Platform, DevOps & Cloud Infrastructure</p>
+            <h2>Delivering secure, scalable systems that accelerate engineering velocity.</h2>
+            <p class="lead">
+              I design platform services, automated CI/CD practices, 
+              and multi-cloud infrastructure so teams can ship software faster with confidence.
+            </p>
+            <div class="hero-actions">
+              <a class="button primary" href="#projects">View projects</a>
+              <a class="button secondary" href="#contact">Let's connect</a>
+            </div>
+          </div>
+
+          <aside class="hero-panel">
+            <figure class="profile-image">
+              <img class="zoomable-image" src="image/Profile1.png" alt="Platform engineering profile photo" />
+            </figure>
+            <div>
+              <h3>Core strengths</h3>
+              <ul>
+                <li>Platform reliability, automation and observability</li>
+                <li>Cloud-native infrastructure & IaC</li>
+                <li>Deployment orchestration and incident readiness</li>
+              </ul>
+            </div>
+            <div class="hero-stats">
+              <div>
+                <strong>3</strong>
+                <span>Cloud providers managed</span>
+              </div>
+              <div>
+                <strong>40%</strong>
+                <span>faster deployment cadence</span>
+              </div>
+              <div>
+                <strong>99.99%</strong>
+                <span>platform uptime delivered</span>
+              </div>
+            </div>
+          </aside>
+        </section>
+
+        <section class="section" id="projects">
+          <div class="section-heading">
+            <p class="eyebrow">Projects</p>
+            <h2>Infrastructure projects that improve delivery and reliability.</h2>
+          </div>
+
+          <div class="project-grid">
+            <article class="project-card">
+              <img class="zoomable-image" src="image/Multi-cloud.png" alt="Multi-cloud automation dashboard" />
+              <h3>Multi-cloud platform automation</h3>
+              <p>
+                Built an end-to-end platform using Terraform, Kubernetes, and GitHub Actions across AWS, Azure, and GCP. 
+                Reduced provisioning time by 50% and enabled consistent deployments across teams.
+              </p>
+              <div class="project-meta">
+                <span>Terraform • Kubernetes • GitHub Actions</span>
+                <span>Multi-cloud • Policy-as-code</span>
+              </div>
+            </article>
+
+            <article class="project-card">
+              <img class="zoomable-image" src="image/Self-service.png" alt="Self-service developer platform" />
+              <h3>Self-service developer platform</h3>
+              <p>
+                Created a self-service onboarding experience with Helm charts, Flux CD, and centralized secrets management. 
+                Resulted in a 60% drop in manual configuration tickets.
+              </p>
+              <div class="project-meta">
+                <span>Flux CD • Helm • Vault</span>
+                <span>Developer productivity • GitOps</span>
+              </div>
+            </article>
+
+            <article class="project-card">
+              <img class="zoomable-image" src="image/CICD.png" alt="CI/CD reliability dashboard" />
+              <h3>CI/CD reliability overhaul</h3>
+              <p>
+                Rebuilt pipeline architecture to support scalable builds, test automation, and blue/green deploys.
+                Cut failed deployment rollbacks by 70% and improved pipeline stability.
+              </p>
+              <div class="project-meta">
+                <span>Jenkins • GitHub Actions • Argo CD</span>
+                <span>Pipeline automation • Observability</span>
+              </div>
+            </article>
+
+            <article class="project-card">
+              <img class="zoomable-image" src="image/Monitoring.png" alt="Monitoring and incident response platform" />
+              <h3>Monitoring and incident response platform</h3>
+              <p>
+                Delivered centralized observability with Prometheus, Grafana, and PagerDuty integration. 
+                Improved mean-time-to-detect by 45% and elevated incident response readiness.
+              </p>
+              <div class="project-meta">
+                <span>Prometheus • Grafana • PagerDuty</span>
+                <span>Monitoring • Alerting • SLOs</span>
+              </div>
+            </article>
+          </div>
+        </section>
+
+        <section class="section" id="skills">
+          <div class="section-heading">
+            <p class="eyebrow">Skills</p>
+            <h2>Platform engineering technologies and tooling.</h2>
+          </div>
+
+          <div class="skills-grid">
+            <div class="skill-group">
+              <div class="skill-group-header">
+                <span class="skill-icon" aria-hidden="true">☁️</span>
+                <h3>Cloud & Infrastructure</h3>
+              </div>
+              <p>AWS, Azure, GCP, VPC, Networking, IAM</p>
+            </div>
+            <div class="skill-group">
+              <div class="skill-group-header">
+                <span class="skill-icon" aria-hidden="true">🛠️</span>
+                <h3>Infrastructure as Code</h3>
+              </div>
+              <p>Terraform, Pulumi, ARM, CloudFormation, Terragrunt</p>
+            </div>
+            <div class="skill-group">
+              <div class="skill-group-header">
+                <span class="skill-icon" aria-hidden="true">⚙️</span>
+                <h3>CI/CD & Automation</h3>
+              </div>
+              <p>GitHub Actions, Jenkins, Argo CD, Flux, Tekton</p>
+            </div>
+            <div class="skill-group">
+              <div class="skill-group-header">
+                <span class="skill-icon" aria-hidden="true">🐳</span>
+                <h3>Containers & Orchestration</h3>
+              </div>
+              <p>Kubernetes, Docker, EKS, AKS, GKE, service mesh</p>
+            </div>
+            <div class="skill-group">
+              <div class="skill-group-header">
+                <span class="skill-icon" aria-hidden="true">📈</span>
+                <h3>Monitoring & SRE</h3>
+              </div>
+              <p>Prometheus, Grafana, ELK, Datadog, SLOs, PagerDuty</p>
+            </div>
+            <div class="skill-group">
+              <div class="skill-group-header">
+                <span class="skill-icon" aria-hidden="true">🛡️</span>
+                <h3>Security & Governance</h3>
+              </div>
+              <p>Policy-as-code, IAM controls, secrets management, compliance</p>
+            </div>
+          </div>
+        </section>
+
+        <section class="section" id="summary">
+          <div class="section-heading">
+            <p class="eyebrow">Summary</p>
+            <h2>Reliable systems design for fast-moving engineering teams.</h2>
+          </div>
+          <p>
+            I help organizations move from brittle infrastructure to predictable, cost-effective platforms. My focus is on automation, 
+            secure multi-cloud architecture, and observability so engineering teams can deliver value with lower risk.
+          </p>
+          <p>
+            Whether it’s designing a new platform, standardizing deployment pipelines, or improving incident response, 
+            I bring practical infrastructure engineering expertise paired with a builder mindset.
+          </p>
+        </section>
+
+        <section class="contact section" id="contact">
+          <div class="section-heading">
+            <p class="eyebrow">Contact</p>
+            <h2>Ready to talk about platform strategy or cloud operations.</h2>
+          </div>
+          <p>
+            Send a message to begin a conversation about your infrastructure modernization goals, 
+            platform reliability needs, or team enablement challenges.
+          </p>
+          <div class="contact-item">
+            <span class="contact-icon" aria-hidden="true">✉️</span>
+            <a class="contact-link" href="mailto:m.hu.ahmadi1@gmail.com">m.hu.ahmadi1@gmail.com</a>
+          </div>
+          <div class="social-links">
+            <a class="social-link" href="https://github.com/mohammadhussain19" target="_blank" rel="noreferrer">
+              <span class="contact-icon" aria-hidden="true">🐙</span>
+              GitHub
+            </a>
+            <a class="social-link" href="https://linkedin.com/in/hussainahmadi1999" target="_blank" rel="noreferrer">
+              <span class="contact-icon" aria-hidden="true">💼</span>
+              LinkedIn
+            </a>
+            <a class="social-link" href="https://twitter.com/your-username" target="_blank" rel="noreferrer">
+              <span class="contact-icon" aria-hidden="true">🐦</span>
+              Twitter
+            </a>
+          </div>
+        </section>
+      </main>
+
+      <footer class="site-footer">
+        <p>Portfolio template for Platform Engineering professionals. Customize project details, links, 
+          and contact information in the source files.</p>
+      </footer>
+    </div>
+
+    <button id="scroll-to-top" class="scroll-to-top" type="button" aria-label="Scroll to top">↑</button>
+    <script src="script.js"></script>
+  </body>
+</html>
