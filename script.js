@@ -14,7 +14,7 @@ const prefersDark = window.matchMedia('(prefers-color-scheme: dark)').matches;
 
 function updateThemeButton(theme) {
   if (!themeToggle) return;
-  themeToggle.textContent = theme === 'dark' ? '☀️' : '🌙';
+  themeToggle.setAttribute('aria-label', theme === 'dark' ? 'Switch to light theme' : 'Switch to dark theme');
 }
 
 function applyTheme(theme) {
@@ -47,7 +47,6 @@ window.addEventListener('scroll', () => {
   }
 });
 
-// move to top of page when button is clicked
 scrollTopButton?.addEventListener('click', () => {
   window.scrollTo({ top: 0, behavior: 'smooth' });
 });
