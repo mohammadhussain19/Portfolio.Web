@@ -47,6 +47,7 @@ window.addEventListener('scroll', () => {
   }
 });
 
+// move to top of page when button is clicked
 scrollTopButton?.addEventListener('click', () => {
   window.scrollTo({ top: 0, behavior: 'smooth' });
 });
